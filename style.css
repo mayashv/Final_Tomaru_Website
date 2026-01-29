@@ -1,0 +1,373 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style of entire body */
+body {
+    background-color: #ecdcc9;
+    margin: 5%;
+}
+
+/* Style of hero section */
+.hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 13%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 192px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    color: #4a2f1b;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.hero-buttons button {
+    padding: clamp(20px, 3vw, 30px) clamp(36px, 5vw, 60px);
+    font-size: clamp(22px, 3vw, 28px);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.25);
+    cursor: pointer;
+    min-height: 44px;
+}
+
+.hero-buttons button:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+button.adoption {
+    background-color: #edd4b2;
+}
+
+button.donate {
+    background-color: #d0a98f;
+}
+
+button.contact {
+    background-color: #a6844e;
+}
+
+.hero img {
+    width: 90vw;
+    max-width: 90%;
+    min-width: 200px;
+    height: auto;
+    border-radius: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+nav {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+}
+
+.hero {
+    background-color: #cac2b5;
+    padding: 5vh 0; 
+    /* border-radius: 40px; /*He quitado el border radius para que el visionado quede parejo*/
+}
+
+/* The section "About Us: Nosotros" */
+.us {
+    background-color: #cac2b5;
+    padding: 5vh;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    color: #4a2f1b;
+}
+
+.us h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us ul {
+    display: block;
+    list-style-type: disc;
+    padding-left: 40px;
+    padding-right: 8px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+    color: #5c3a28;
+}
+
+.us li {
+    margin-bottom: 14px;
+}
+
+.us-logo {
+    width: 150px;
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 40px;
+    opacity: 0.7;
+}
+
+/*The section about Nuestros animales: Gatos y Perros. */
+.animals {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.animals h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animals {
+    padding: 4vh 5vw;
+}
+
+.card-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animal-card {
+    background-color: #ecdcc9;
+    border-radius: 20px;
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 2px 6px 12px rgba(0,0,0,0.2);
+}
+
+.animal-card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+}
+
+.animal-card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #3a2a1f;
+}
+
+.animal-card p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #3a2a1f;
+}
+
+
+
+/*The section about Nuestros animales: Perros. */
+.dogs {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+/*The section: Nos ayudas - Dona, donate. */
+.donation {
+    background-color: #cac2b5;
+    padding: 5vh;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+/*The section: Nos ayudas - Dona, donate. */
+.adopta {
+    background-color: #cac2b5;
+    padding: 5vh;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.donation img {
+    width: 90vw;
+    max-width: 90%;
+    min-width: 200px;
+    height: auto;
+    border-radius: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.donation h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation ul {
+    display: block;
+    list-style-type: disc;
+    padding-left: 40px;
+    padding-right: 8px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+    color: #5c3a28;
+}
+
+.donation li {
+    margin-bottom: 14px;
+}
+
+.payment-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.payment-buttons button {
+    padding: clamp(20px, 3vw, 30px) clamp(36px, 5vw, 60px);
+    font-size: clamp(22px, 3vw, 28px);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.25);
+    cursor: pointer;
+    min-height: 44px;
+}
+
+.payment-buttons button:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+button.paypal {
+    background-color: #c5ad86;
+}
+
+button.bizum {
+    background-color: #d5b177;
+}
+
+button.visa {
+    background-color: #e0c393;
+}
+
+
+
+
+/*The section: Contact form. */
+.contactus {
+    background-color: #cac2b5;
+    padding: 5vh 0;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.contactus h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    font-size: 2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    color: #5b3a29;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.8rem 1rem;
+    font-size: 2vw;
+    border-radius: 14px;
+    border: 1px solid #aaa;
+    margin-top: 0.3rem;
+    background-color: #ecdcc9;
+    color: #2b1b12;
+}
+
+.contact-form button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    border-radius: 16px;
+    border: none;
+    background-color: #4a2f1b;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 6px 10px rgba(0,0,0,0.3);
+}
+
+.contact-form button:hover {
+    transform: translateY(-2px);
+}
+.footer { margin-top: 20%;
+    background-color: #d0a98f; /* nude */
+    color: #ffffff;
+    font-family: Arial; 
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.header { margin-top: 20%;
+    background-color: #d0a98f; /* nude */
+    color: #ffffff;
+    font-family: Arial; 
+    text-align: left;
+    padding: 20px 10px;
+}

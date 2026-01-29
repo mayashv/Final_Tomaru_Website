@@ -1,2 +1,2 @@
-# Final_Tomaru_Website
-The final repository for Tomaru with Sandra's changes
+# tomaru-website
+A draft of a website for ADA final Web design project
